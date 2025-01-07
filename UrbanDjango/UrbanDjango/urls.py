@@ -25,5 +25,6 @@ def home(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('task2/', include('task2.urls')),  # Подключаем маршруты task2
+    path('task3/', include('task3.urls')),  # Подключаем маршруты task3
     path('', home),  # Добавляем маршрут для корневого URL
 ]

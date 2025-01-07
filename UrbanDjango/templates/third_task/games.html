@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+</head>
+<body>
+    <h1>Магазин</h1>
+    <ul>
+        {% for game, price in games.items %}
+        <li>
+            {{ game }} - {{ price }}
+            <button>Купить</button>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/task3/"><button>Вернуться на главную</button></a>
+</body>
+</html>
