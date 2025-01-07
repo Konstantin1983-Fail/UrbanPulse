@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block pagename %}Default Page{% endblock %}</title>
+</head>
+<body>
+    <div id="menu">
+        {% block menu %}
+        <nav>
+            <a href="/">Главная</a> |
+            <a href="/task4/games/">Магазин</a> |
+            <a href="/task4/cart/">Корзина</a>
+        </nav>
+        {% endblock %}
+    </div>
+    <div id="content">
+        {% block content %}
+        <p>Содержание страницы</p>
+        {% endblock %}
+    </div>
+</body>
+</html>
