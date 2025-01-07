@@ -27,5 +27,6 @@ urlpatterns = [
     path('task2/', include('task2.urls')),  # Подключаем маршруты task2
     path('task3/', include('task3.urls')),  # Подключаем маршруты task3
     path('task4/', include('task4.urls')),  # Подключаем маршруты task4
+    path('task5/', include('task5.urls')),  # Подключаем маршруты task5
     path('', home),  # Добавляем маршрут для корневого URL
 ]
