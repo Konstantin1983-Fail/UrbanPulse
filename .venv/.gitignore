@@ -1,0 +1,48 @@
+# Игнорировать виртуальное окружение
+.venv/
+venv/
+env/
+
+# Игнорировать файлы базы данных SQLite
+*.sqlite3
+*.db
+
+# Игнорировать кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорировать файлы настроек IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Игнорировать статические файлы (если они генерируются автоматически)
+staticfiles/
+mediafiles/
+
+# Игнорировать файлы зависимостей
+node_modules/
+bower_components/
+
+# Игнорировать логи
+*.log
+
+# Игнорировать файлы сборки
+build/
+dist/
+*.egg-info/
+
+# Игнорировать файлы окружения
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Игнорировать macOS системные файлы
+.DS_Store
+
+# Игнорировать Windows системные файлы
+Thumbs.db
